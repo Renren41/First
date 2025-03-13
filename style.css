@@ -1,0 +1,58 @@
+/* Tampilan full screen untuk semua halaman */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Background gambar hanya untuk index.html */
+.background-image {
+    background: url('https://i.postimg.cc/SsCR4sKg/IMG-20250308-WA0004.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Background putih untuk next.html */
+.plain-background {
+    background: white;
+    color: black;
+}
+
+/* Kotak teks utama agar konsisten di semua halaman */
+.content {
+    background: rgba(0, 0, 0, 0.6); /* Transparan untuk index.html */
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+/* Gambar sekolah */
+.school-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Tombol Next di kanan bawah */
+.next-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #28a745;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.next-button:hover {
+    background: #218838;
+}
